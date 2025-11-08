@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual Environment ----
+venv/
+env/
+ENV/
+
+# ---- SQLite Databases ----
+*.db
+*.sqlite3
+
+# ---- Flask instance folder ----
+instance/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Python environment files ----
+.venv/
+*.egg-info/

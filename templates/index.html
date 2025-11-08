@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RX 9060XT - Ultimate Graphics Card</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">RX 9060XT</div>
+        <ul class="nav-links">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Specs</a></li>
+            <li><a href="#">Buy Now</a></li>
+        </ul>
+    </nav>
+
+    <!-- FIRST SECTION: HERO BANNER -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unleash the Power of RX 9060XT</h1>
+            <p>Experience next-generation gaming with extreme performance, 4K visuals, and ray tracing precision.</p>
+            <button class="btn-primary">Buy Now</button>
+        </div>
+    </section>
+
+    <!-- MIDDLE SECTION: DETAILS -->
+    <section class="details">
+        <h2>Performance Beyond Limits</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="{{ url_for('static', filename='gpu_icon.png') }}" alt="GPU">
+                <h3>RDNA 3 Architecture</h3>
+                <p>Built with the latest AMD RDNA 3 core for unmatched efficiency and rendering speed.</p>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='speed_icon.png') }}" alt="Speed">
+                <h3>24 GB GDDR7 Memory</h3>
+                <p>Handle ultra-high-resolution textures and AI workloads effortlessly.</p>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='cooling_icon.png') }}" alt="Cooling">
+                <h3>Advanced Cooling</h3>
+                <p>Stay cool and quiet under heavy loads with triple-fan vapor chamber cooling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL SECTION: CALL TO ACTION -->
+    <section class="cta">
+        <h2>Ready to Upgrade?</h2>
+        <p>Step into the future of gaming — power, precision, and performance combined.</p>
+        <button class="btn-secondary">Pre-Order Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 RX 9060XT | Powered by Flask</p>
+    </footer>
+</body>
+</html>

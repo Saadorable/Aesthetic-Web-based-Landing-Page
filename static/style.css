@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0e0e0e;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(20, 20, 20, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff004c;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url("/static/rx9060xt_banner.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.btn-primary {
+    background-color: #ff004c;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff2f6d;
+    transform: scale(1.05);
+}
+
+/* Details Section */
+.details {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #121212;
+}
+
+.details h2 {
+    margin-bottom: 50px;
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border-radius: 16px;
+    padding: 30px;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(90deg, #ff004c, #ff2f6d);
+    color: white;
+}
+
+.btn-secondary {
+    background: white;
+    color: #ff004c;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-secondary:hover {
+    background: #f3f3f3;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #0e0e0e;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
