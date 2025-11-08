@@ -21,12 +21,14 @@
 
     <!-- FIRST SECTION: HERO BANNER -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Unleash the Power of RX 9060XT</h1>
-            <p>Experience next-generation gaming with extreme performance, 4K visuals, and ray tracing precision.</p>
-            <button class="btn-primary">Buy Now</button>
-        </div>
+        <img src="{{ url_for('static', filename='rx9060xt_banner.jpg') }}" alt="RX 9060XT" class="hero-img">
+            <div class="hero-content">
+                <h1>Unleash the Power of RX 9060XT</h1>
+                <p>Experience next-generation gaming with extreme performance, 4K visuals, and ray tracing precision.</p>
+                <button class="btn-primary">Buy Now</button>
+            </div>
     </section>
+
 
     <!-- MIDDLE SECTION: DETAILS -->
     <section class="details">
@@ -34,7 +36,7 @@
         <div class="cards">
             <div class="card">
                 <img src="{{ url_for('static', filename='gpu_icon.png') }}" alt="GPU">
-                <h3>RDNA 3 Architecture</h3>
+                <h3>RDNA 4 Architecture</h3>
                 <p>Built with the latest AMD RDNA 3 core for unmatched efficiency and rendering speed.</p>
             </div>
             <div class="card">

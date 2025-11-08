@@ -41,13 +41,20 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
-    background: url("/static/rx9060xt_banner.jpg") no-repeat center center/cover;
+    height: auto; /* Let the content decide the height */
     display: flex;
+    flex-direction: column; /* stack image and text */
     align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 0 20px;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 80%;       /* make it smaller than full width */
+    max-width: 1000px; /* optional: prevent it from getting too huge on big screens */
+    height: auto;     /* maintain aspect ratio */
+    margin-bottom: 20px; /* space between image and text */
+    border-radius: 12px;  /* optional: rounded corners */
 }
 
 .hero-content h1 {
@@ -108,8 +115,9 @@ body {
 }
 
 .card img {
-    width: 60px;
-    margin-bottom: 20px;
+    width: 100px;        /* make images bigger */
+    height: auto;        /* keep aspect ratio */
+    margin-bottom: 20px; /* spacing below image */
 }
 
 /* CTA Section */
